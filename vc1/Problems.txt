@@ -1,0 +1,15 @@
+# Problem 1 :
+
+Code :
+
+case (1 || 2 || 3):
+            row1[playerMove] = (activePlayer == 1? 0 : 8);
+            break;
+
+Error :
+duplicate case value
+
+#Proble 2 :
+
+//int x = ('6' == '6' == '6' ? 1 : 2); // Why this is false ? More problem like that
+//int x = (8 == 8 == 8  ? 1 : 2); // Why this is false ? More problem like that
